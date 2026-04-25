@@ -1,5 +1,4 @@
 # FRA500-Human-Robotics-Interface-Class-Project-VR-Robot-Cockpit-
-VR Robot Cockpit เป็นโปรแกรมจำลองห้องควบคุมหุ่นยนต์ที่ได้รับแรงบันดาลใจจากอนิเมชันเรื่อง Gundam Build Fighters โดยออกแบบให้มีลักษณะและประสบการณ์การใช้งานใกล้เคียงกับในเรื่อง เพื่อเพิ่มความสมจริงและความน่าสนใจในการควบคุมหุ่นยนต์
 # Unity ROS VR Robot Controller
 
 A Unity project for controlling and visualizing a robot arm via ROS (Robot Operating System) in a VR environment. The system streams camera feeds, renders LiDAR data, syncs joint states, and supports XR controller input for real-time robot control.
