@@ -1,12 +1,12 @@
 # FRA500-Human-Robotics-Interface-Class-Project-VR-Robot-Cockpit-
 VR Robot Cockpit เป็นโปรแกรมจำลองห้องควบคุมหุ่นยนต์ที่ได้รับแรงบันดาลใจจากอนิเมชันเรื่อง Gundam Build Fighters โดยออกแบบให้มีลักษณะและประสบการณ์การใช้งานใกล้เคียงกับในเรื่อง เพื่อเพิ่มความสมจริงและความน่าสนใจในการควบคุมหุ่นยนต์
-# 🤖 Unity ROS VR Robot Controller
+# Unity ROS VR Robot Controller
 
 A Unity project for controlling and visualizing a robot arm via ROS (Robot Operating System) in a VR environment. The system streams camera feeds, renders LiDAR data, syncs joint states, and supports XR controller input for real-time robot control.
 
 ---
 
-## 📁 Scripts Overview
+## Scripts Overview
 
 | Script | Class | Description |
 |--------|-------|-------------|
@@ -20,7 +20,7 @@ A Unity project for controlling and visualizing a robot arm via ROS (Robot Opera
 
 ---
 
-## 🔌 ROS Topics
+## ROS Topics
 
 | Topic | Message Type | Direction | Used By |
 |-------|-------------|-----------|---------|
@@ -33,7 +33,7 @@ A Unity project for controlling and visualizing a robot arm via ROS (Robot Opera
 
 ---
 
-## 🧩 Script Details
+## Script Details
 
 ### `CameraStreamer.cs`
 Displays a live camera stream from ROS inside the VR scene.
@@ -70,7 +70,7 @@ Keeps a UI panel positioned in front of the player's head.
 - `distance` — Distance in front of the head (default: `1.0`)
 - `heightOffset` — Vertical offset from head position (default: `0.3`)
 
-> ⚠️ Note: The filename is `FollowFace.cs` but the class name is `FollowHead`.
+>  Note: The filename is `FollowFace.cs` but the class name is `FollowHead`.
 
 ---
 
@@ -148,7 +148,7 @@ Displays battery voltage as 3D text in the VR scene.
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 1. Install the [ROS-TCP-Connector](https://github.com/Unity-Technologies/ROS-TCP-Connector) package in Unity.
 2. Configure `ROSConnection` with your ROS master IP and port.
@@ -158,7 +158,7 @@ Displays battery voltage as 3D text in the VR scene.
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - `JointSyncManager` and `RobotStateSubscriber` both subscribe to `/joint_states` — use only one per scene unless you need both slider UI and pure visual sync simultaneously.
 - All scripts use `ROSConnection.GetOrCreateInstance()`, so only one `ROSConnection` component is needed in the scene.
