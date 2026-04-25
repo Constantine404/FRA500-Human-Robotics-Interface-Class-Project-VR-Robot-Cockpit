@@ -162,3 +162,9 @@ Displays battery voltage as 3D text in the VR scene.
 - `JointSyncManager` and `RobotStateSubscriber` both subscribe to `/joint_states` — use only one per scene unless you need both slider UI and pure visual sync simultaneously.
 - All scripts use `ROSConnection.GetOrCreateInstance()`, so only one `ROSConnection` component is needed in the scene.
 - Radar texture calls `Apply()` every frame when new LiDAR data arrives — consider reducing `textureResolution` if performance is a concern.
+
+---
+##  Developer Member
+Kraiwich Vichakhon
+Khanapon Katthanyakit
+
