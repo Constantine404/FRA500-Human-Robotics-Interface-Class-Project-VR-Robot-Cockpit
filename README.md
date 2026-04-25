@@ -165,6 +165,5 @@ Displays battery voltage as 3D text in the VR scene.
 
 ---
 ##  Developer Member
-Kraiwich Vichakhon
-Khanapon Katthanyakit
-
+- Kraiwich Vichakhon
+- Khanapon Katthanyakit
